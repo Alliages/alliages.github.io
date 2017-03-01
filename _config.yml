@@ -2,27 +2,28 @@ url: https://alliages.github.io
 #baseurl: /
 
 # Site settings
-title: Alliages Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: PARIS CHANGE D'ERE, Vers la neutralité carbone en 2050
+email: paris2050@elioth.fr
+description: "Rapport complet de l'étude Paris change d'ère, vers la neutralité carbone par Elioth Egis Conseil Quattrolibri Mana 2016"
+#description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Elioth
   pic: 1
-  position: Lead Designer
+  position: Raphael Ménard
   social:
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+      url: https://twitter.com/elioth
+    - title: linkedin
+      url: https://fr.linkedin.com/company/elioth
+    - title: web
+      url: http://elioth.com
 
-- name: Larry Parker
+- name: Egis Conseil
   pic: 2
-  position: Lead Marketer
+  position: Sébastien Duprat
   social:
     - title: twitter
       url: #
@@ -31,9 +32,9 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: Quattrolibri
   pic: 3
-  position: Lead Developer
+  position: Julien Dossier
   social:
     - title: twitter
       url: #
@@ -42,23 +43,29 @@ people:
     - title: google-plus
       url: #
 
+- name: Mana
+  pic: 4
+  position: Stéphane Chevrier
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+  - title: vimeo
+    url: xxxx
+  - title: issuu
+    url: xxxx	
+	
+
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 4 rue dolores Ibarruri
+  - line: 93188 Montreuil
 
 # Build settings
 markdown: kramdown
