@@ -1,11 +1,11 @@
 ---
-title: Treehouse
+title: courbe_bati
 subtitle: Website Design
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+img: courbe_bati.png
+thumbnail: courbe_bati-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

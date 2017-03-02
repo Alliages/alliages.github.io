@@ -1,11 +1,11 @@
 ---
-title: Golden
+title: resultat_simple
 subtitle: Website Design
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
+img: resultat_simple.png
+thumbnail: resultat_simple-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

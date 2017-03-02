@@ -1,11 +1,11 @@
 ---
-title: Round Icons
+title: famille_syn
 subtitle: Graphic Design
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+img: famille_syn.png
+thumbnail: famille_syn-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
