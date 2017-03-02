@@ -12,7 +12,7 @@ description: "Rapport complet de l'étude Paris change d'ère, vers la neutralit
 people:
 - name: Elioth
   pic: 1
-  position: Raphael Ménard
+  position: mandataire du groupement, est une équipe multidisciplinaire composée d’ingénieurs, d’architectes, de designers et de datascentists, intervenant en R&D et en maîtrise d’œuvre d’innovation bas carbone, filiale du groupe Egis 
   social:
     - title: twitter
       url: https://twitter.com/elioth
@@ -23,42 +23,36 @@ people:
 
 - name: Egis Conseil
   pic: 2
-  position: Sébastien Duprat
+  position: accompagne les décideurs des territoires et de l’immobilier, depuis la structuration de leurs stratégies d’intervention, et jusqu’à la mise en œuvre effective de leurs projets 
   social:
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+      url: https://twitter.com/egis
+    - title: link
+      url: leconseilbyegis.fr
 
 - name: Quattrolibri
   pic: 3
-  position: Julien Dossier
+  position: société de conseil en stratégies bas carbone, qui intervient auprès de collectivités ou d’entreprises, et a mené des recherches sur les villes post carbone
   social:
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+      url: https://twitter.com/juliendossier
+    - title: link
+      url: www.quattrolibri.com
 
 - name: Mana
   pic: 4
-  position: Stéphane Chevrier
+  position: bureau d’études et de conseil sociologiques spécialisé sur les questions relatives aux modes de vie, aux usages, aux imaginaires de la ville et des territoires
   social:
     - title: twitter
       url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+    - title: link
+      url: www.manafactory.fr
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: vimeo
-    url: xxxx
-  - title: issuu
-    url: zzzz
+  - title: mail
+    url: paris2050@elioth
+  - title: link
+    url: http://elioth.com
 
 # Postal address (add as many lines as necessary)
 address:
