@@ -28,7 +28,7 @@ people:
     - title: twitter
       url: https://twitter.com/egis
     - title: link
-      url: leconseilbyegis.fr
+      url: http://leconseilbyegis.fr
 
 - name: Quattrolibri
   pic: 3
@@ -37,7 +37,7 @@ people:
     - title: twitter
       url: https://twitter.com/juliendossier
     - title: link
-      url: www.quattrolibri.com
+      url: http://www.quattrolibri.com
 
 - name: Mana
   pic: 4
@@ -46,7 +46,7 @@ people:
     - title: twitter
       url: #
     - title: link
-      url: www.manafactory.fr
+      url: http://www.manafactory.fr
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: envelope-o
