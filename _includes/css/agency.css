@@ -136,7 +136,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     border-color: #{{ site.data.template.color.primary }};
-    color: #fff;
+    color: #DD6400;
     background-color: #{{ site.data.template.color.secondary }};
 }
 
@@ -231,7 +231,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #223769;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: #{{ site.data.template.color.muted }};
 }
 
 @media(min-width:768px) {
@@ -281,6 +281,7 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+	color: #{{ site.data.template.color.primary }};
 }
 
 header .intro-text .intro-lead-in {
