@@ -1,11 +1,11 @@
 ---
-title: Courbe simplifiée
+title: barres
 subtitle: trajectoire atténuation et séquestration
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: courbe_simple.png
-thumbnail: courbe_simple-thumbnail.png
+img: barres.png
+thumbnail: barres-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Elioth

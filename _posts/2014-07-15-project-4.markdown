@@ -1,11 +1,11 @@
 ---
-title: courbe_bati
+title: DianeBerg.jpg
 subtitle: Website Design
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: courbe_bati.png
-thumbnail: courbe_bati-thumbnail.png
+img: DianeBerg.jpg
+thumbnail: DianeBerg-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

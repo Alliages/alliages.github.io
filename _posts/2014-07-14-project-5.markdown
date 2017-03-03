@@ -1,11 +1,11 @@
 ---
-title: bati
+title: familles
 subtitle: Website Design
 layout: default
 modal-id: 5
 date: 2014-07-14
-img: bati.png
-thumbnail: bati-thumbnail.png
+img: familles.png
+thumbnail: familles-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
