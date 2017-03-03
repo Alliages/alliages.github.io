@@ -4,6 +4,7 @@ color:
   secondary: 000   
   secondary-dark: 041232
   muted: 777
+  orange: DD6400
 
 # Font Families
 font:
