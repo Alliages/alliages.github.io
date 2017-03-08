@@ -1,6 +1,6 @@
 ---
-title: DianeBerg.jpg
-subtitle: Website Design
+title: Illustrations de Diane Berg
+subtitle: Les quatres autres illustration de Diane Berg
 layout: default
 modal-id: 4
 date: 2014-07-15
@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Quel pourrait être le Paris de 2050? Diane Berg s'est amusée à imaginer des représentations des moments de vie à Paris en 2050
 
 ---

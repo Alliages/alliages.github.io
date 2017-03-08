@@ -1,6 +1,6 @@
 ---
-title: barres
-subtitle: trajectoire atténuation et séquestration
+title: Résumé par barres
+subtitle: Bilan Carbone de Paris en 2030 et 2050
 layout: default
 modal-id: 1
 date: 2014-07-18
@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Elioth
 category: Courbe
-description: Trajectoire simplifiée.
+description: Répartition détaillée par poste du bilan carbone de la ville de Paris en 2030 et 2050 hors déplacement personnel en avion
 
 ---

@@ -1,6 +1,6 @@
 ---
-title: famille_syn
-subtitle: Graphic Design
+title: Synthèse des Familles
+subtitle: Tableau d'évolution des familles de 2016 à 2050
 layout: default
 modal-id: 6
 date: 2014-07-15
@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Répartition et évolution des familles selon la carte du tendre en fonction de leurs valeurs et de leurs pratiques. Le prénom représente le chef de famille.
 
 ---
