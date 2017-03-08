@@ -11,5 +11,4 @@ project-date: April 2014
 client: Start Bootstrap
 category: Web Development
 description: La neutralité s'obtient en réduisant notre bilan carbone de 70% malgré une augmentation de la population. Ensuite il faut compenser 10% grâce à des énergies renouvellables et enfin séquestrer les 20% restants.
-
 ---

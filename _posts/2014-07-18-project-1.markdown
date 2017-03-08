@@ -10,6 +10,5 @@ alt: image-alt
 project-date: April 2014
 client: Elioth
 category: Courbe
-description: Répartition détaillée par poste du bilan carbone de la ville de Paris en 2030 et 2050 hors déplacement personnel en avion
-
+description: Répartition détaillée par poste du bilan carbone de la ville de Paris en 2030 et 2050 hors déplacement personnel en avion avec 2004 en arrière plan.
 ---
