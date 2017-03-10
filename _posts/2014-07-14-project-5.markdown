@@ -1,11 +1,11 @@
 ---
-title: Synthèse des Familles
-subtitle: Tableau d'évolution des familles de 2016 à 2050
+title: Exemple de familles
+subtitle: Deux familles résumées
 layout: default
-modal-id: 6
-date: 2014-07-15
-img: famille_syn.png
-thumbnail: famille_syn-thumbnail.png
+modal-id: 5
+date: 2014-07-14
+img: familles.png
+thumbnail: familles-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
