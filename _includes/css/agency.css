@@ -184,11 +184,12 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #FFF;
+    color: #{{ site.data.template.color.orange }};
 }
 
 .navbar-default .navbar-collapse {
     border-color: rgba(255,255,255,.02);
+	background-color: rgba(255,255,255,.2);
 }
 
 .navbar-default .navbar-toggle {
@@ -235,6 +236,10 @@ fieldset[disabled] .btn-xl.active {
     color: #DD6400;
 }
 
+.navbar .container {
+	background-color : rgba(255,255,255,.5);	
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -264,6 +269,10 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+	
+	.navbar .container {
+		background-color : rgba(255,255,255,.5);	
+	}
 }
 
 header {
@@ -283,6 +292,7 @@ header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
 	color: #{{ site.data.template.color.primary }};
+	background-color: rgba(255,255,255,.5);
 }
 
 header .intro-text .intro-lead-in {
@@ -298,7 +308,6 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-	background-color: rgba(255,255,255,.5);
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
