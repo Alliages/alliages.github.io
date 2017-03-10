@@ -232,7 +232,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-
+	background-color: #{{ site.data.template.color.primary }};
     color: #DD6400;
 }
 
