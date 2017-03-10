@@ -1,14 +1,14 @@
 ---
-title: Exemple de familles
-subtitle: Deux familles résumées
+title: Synthèse des Familles
+subtitle: Tableau d'évolution des familles de 2016 à 2050
 layout: default
-modal-id: 5
-date: 2014-07-14
-img: familles.png
-thumbnail: familles-thumbnail.png
+modal-id: 6
+date: 2014-07-15
+img: famille_syn.png
+thumbnail: famille_syn-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Un résumé de deux familles appartenant au même cadrant : Les familles émettrices, par default. 
+description: Répartition et évolution des familles selon la carte du tendre en fonction de leurs valeurs et de leurs pratiques. Le prénom représente le chef de famille.
 ---
