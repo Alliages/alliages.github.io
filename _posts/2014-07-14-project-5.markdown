@@ -6,9 +6,9 @@ modal-id: 5
 date: 2014-07-14
 img: familles.png
 thumbnail: familles-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Répartition et évolution des familles selon la carte du tendre en fonction de leurs valeurs et de leurs pratiques. Le prénom représente le chef de famille.
+alt: Exemple de familles
+project-date: 2016
+client: Elioth
+category: Elioth
+description: Un résumé de deux familles appartenant au même cadrant, les familles émettrices, par default. 
 ---
