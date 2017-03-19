@@ -13,6 +13,7 @@ people:
 - name: Elioth
   pic: 1
   position: mandataire du groupement, est une équipe multidisciplinaire composée d’ingénieurs, d’architectes, de designers et de datascentists, intervenant en R&D et en maîtrise d’œuvre d’innovation bas carbone, filiale du groupe Egis 
+  position_en: head of the group xxxx
   social:
     - title: twitter
       url: https://twitter.com/elioth
