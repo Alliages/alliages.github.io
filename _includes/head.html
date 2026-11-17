@@ -3,7 +3,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{{ site.description }}">
+    {% assign page_desc = page.description | default: site.description %}
+    <meta name="description" content="{{ page_desc | escape }}">
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="{{ "/img/favicons/favicon.svg" | prepend: site.baseurl }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ "/img/favicons/favicon-32x32.png" | prepend: site.baseurl }}">
@@ -11,7 +12,21 @@
     <link rel="apple-touch-icon" sizes="180x180" href="{{ "/img/favicons/apple-touch-icon.png" | prepend: site.baseurl }}">
     <link rel="shortcut icon" href="/favicon.ico">
     <meta name="theme-color" content="#223769">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    {% assign canon = page.url | replace:'index.html','' | prepend: site.url %}
+    <link rel="canonical" href="{{ canon }}">
+    <link rel="alternate" hreflang="fr" href="{{ '/parischangedere/' | prepend: site.url }}">
+    <link rel="alternate" hreflang="en" href="{{ '/parischangedere/en.html' | prepend: site.url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ '/parischangedere/' | prepend: site.url }}">
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:locale" content="{% if page.lang == 'en' %}en_GB{% else %}fr_FR{% endif %}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
+    <meta property="og:description" content="{{ page_desc | escape }}">
+    <meta property="og:url" content="{{ canon }}">
+    <meta property="og:image" content="{{ '/img/header-bg_DianeBerg.jpg' | prepend: site.baseurl | prepend: site.url }}">
+    <meta name="twitter:card" content="summary_large_image">
 
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->

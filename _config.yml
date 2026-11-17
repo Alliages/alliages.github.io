@@ -1,9 +1,8 @@
-url: https://alliages.github.io/parischangedere/
+url: https://alliages.github.io
 baseurl: /parischangedere
 
 # Site settings
 title: Paris change d'ère
-email: paris2050@elioth.fr
 description: "Rapport complet de l'étude Paris change d'ère, vers la neutralité carbone par Elioth Egis Conseil Quattrolibri Mana 2016"
 #description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
@@ -13,7 +12,7 @@ people:
 - name: Elioth
   pic: 1
   position: mandataire du groupement, est une équipe multidisciplinaire composée d’ingénieurs, d’architectes, de designers et de datascentists, intervenant en R&D et en maîtrise d’œuvre d’innovation bas carbone, filiale du groupe Egis 
-  position_en: head of the group xxxx
+  position_en: lead partner of the group, a multidisciplinary team of engineers, architects, designers and data scientists working in R&D and low-carbon innovation design, a subsidiary of the Egis group
   social:
     - title: twitter
       url: https://twitter.com/elioth
@@ -30,6 +29,7 @@ people:
       url: https://twitter.com/egis
     - title: link
       url: http://leconseilbyegis.fr
+  position_en: supports decision-makers in local government and real estate, from structuring their intervention strategies through to the effective delivery of their projects
 
 - name: Quattrolibri
   pic: 3
@@ -39,6 +39,7 @@ people:
       url: https://twitter.com/juliendossier
     - title: link
       url: http://www.quattrolibri.com
+  position_en: a low-carbon strategy consultancy working with local authorities and companies, which has carried out research on post-carbon cities
 
 - name: Mana
   pic: 4
@@ -46,10 +47,9 @@ people:
   social:
     - title: link
       url: http://www.manafactory.fr
+  position_en: a sociological research and consulting firm specialised in lifestyles, uses, and the imaginaries of cities and territories
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: envelope-o
-    url: mailto:paris2050@elioth
   - title: link
     url: http://elioth.com
 
