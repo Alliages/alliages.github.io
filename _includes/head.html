@@ -25,7 +25,10 @@
     <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
     <meta property="og:description" content="{{ page_desc | escape }}">
     <meta property="og:url" content="{{ canon }}">
-    <meta property="og:image" content="{{ '/img/header-bg_DianeBerg.jpg' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:image" content="{{ '/img/og-image.jpg' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Illustration de Diane Berg pour l'étude Paris change d'ère">
     <meta name="twitter:card" content="summary_large_image">
 
 
@@ -34,11 +37,9 @@
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -46,4 +47,26 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Données structurées -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Report",
+      "name": {{ page.title | default: site.title | jsonify }},
+      "description": {{ page_desc | jsonify }},
+      "inLanguage": {% if page.lang == 'en' %}"en"{% else %}"fr"{% endif %},
+      "url": {{ canon | jsonify }},
+      "about": "Neutralité carbone de Paris en 2050",
+      "image": {{ '/img/og-image.jpg' | prepend: site.baseurl | prepend: site.url | jsonify }},
+      "author": [
+        {"@type": "Organization", "name": "Elioth", "url": "http://elioth.com"},
+        {"@type": "Organization", "name": "Egis Conseil", "url": "http://leconseilbyegis.fr"},
+        {"@type": "Organization", "name": "Quattrolibri", "url": "http://www.quattrolibri.com"},
+        {"@type": "Organization", "name": "Mana", "url": "http://www.manafactory.fr"}
+      ],
+      "sponsor": {"@type": "Organization", "name": "Ville de Paris"},
+      "isAccessibleForFree": true
+    }
+    </script>
 </head>

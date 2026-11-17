@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alliages.github.io/sitemap.xml
