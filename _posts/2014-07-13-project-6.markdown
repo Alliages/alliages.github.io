@@ -2,10 +2,14 @@
 title: Synthèse des Familles
 subtitle: Tableau d'évolution des familles de 2016 à 2050
 layout: default
+noindex: true
+title_en: "Summary of the families"
+subtitle_en: "How the families evolve from 2016 to 2050"
+description_en: "Distribution and evolution of the families on the 'map of tenderness' according to their values and practices. The first name is that of the head of the household."
 modal-id: 6
 date: 2014-07-15
-img: famille_syn.png
-thumbnail: famille_syn-thumbnail.png
+img: famille_syn.webp
+thumbnail: famille_syn-thumbnail.webp
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

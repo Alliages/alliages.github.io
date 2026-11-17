@@ -14,31 +14,25 @@ people:
   position: mandataire du groupement, est une équipe multidisciplinaire composée d’ingénieurs, d’architectes, de designers et de datascentists, intervenant en R&D et en maîtrise d’œuvre d’innovation bas carbone, filiale du groupe Egis 
   position_en: lead partner of the group, a multidisciplinary team of engineers, architects, designers and data scientists working in R&D and low-carbon innovation design, a subsidiary of the Egis group
   social:
-    - title: twitter
-      url: https://twitter.com/elioth
     - title: linkedin
       url: https://fr.linkedin.com/company/elioth
     - title: link
-      url: http://elioth.com
+      url: https://elioth.com
 
 - name: Egis Conseil
   pic: 2
   position: accompagne les décideurs des territoires et de l’immobilier, depuis la structuration de leurs stratégies d’intervention, et jusqu’à la mise en œuvre effective de leurs projets 
   social:
-    - title: twitter
-      url: https://twitter.com/egis
     - title: link
-      url: http://leconseilbyegis.fr
+      url: https://leconseilbyegis.fr
   position_en: supports decision-makers in local government and real estate, from structuring their intervention strategies through to the effective delivery of their projects
 
 - name: Quattrolibri
   pic: 3
   position: société de conseil en stratégies bas carbone, qui intervient auprès de collectivités ou d’entreprises, et a mené des recherches sur les villes post carbone
   social:
-    - title: twitter
-      url: https://twitter.com/juliendossier
     - title: link
-      url: http://www.quattrolibri.com
+      url: https://www.quattrolibri.com
   position_en: a low-carbon strategy consultancy working with local authorities and companies, which has carried out research on post-carbon cities
 
 - name: Mana
@@ -46,12 +40,12 @@ people:
   position: bureau d’études et de conseil sociologiques spécialisé sur les questions relatives aux modes de vie, aux usages, aux imaginaires de la ville et des territoires
   social:
     - title: link
-      url: http://www.manafactory.fr
+      url: https://www.manafactory.fr
   position_en: a sociological research and consulting firm specialised in lifestyles, uses, and the imaginaries of cities and territories
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: link
-    url: http://elioth.com
+    url: https://elioth.com
 
 # Postal address (add as many lines as necessary)
 address:

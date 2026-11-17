@@ -2,10 +2,14 @@
 title: Résumé par barres
 subtitle: Bilan Carbone de Paris en 2030 et 2050
 layout: default
+noindex: true
+title_en: "Summary by bars"
+subtitle_en: "Paris's carbon footprint in 2030 and 2050"
+description_en: "Detailed breakdown by sector of Paris's carbon footprint in 2030 and 2050, excluding personal air travel, with 2004 in the background."
 modal-id: 1
 date: 2014-07-18
-img: barres.png
-thumbnail: barres-thumbnail.png
+img: barres.webp
+thumbnail: barres-thumbnail.webp
 alt: image-alt
 project-date: April 2014
 client: Elioth

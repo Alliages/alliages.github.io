@@ -2,13 +2,17 @@
 title: Les grands chiffres
 subtitle: Les 4 grands chiffres à retenir
 layout: default
+noindex: true
+title_en: "The key figures"
+subtitle_en: "The 4 key figures to remember"
+description_en: "Neutrality is achieved by cutting our carbon footprint by 70% despite a growing population. Then 10% must be offset through renewable energy and, finally, the remaining 20% sequestered."
 modal-id: 3
 date: 2014-07-16
-img: resultat_simple.png
-thumbnail: resultat_simple-thumbnail.png
+img: resultat_simple.webp
+thumbnail: resultat_simple-thumbnail.webp
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: La neutralité s'obtient en réduisant notre bilan carbone de 70% malgré une augmentation de la population. Ensuite il faut compenser 10% grâce à des énergies renouvellables et enfin séquestrer les 20% restants.
+description: La neutralité s'obtient en réduisant notre bilan carbone de 70% malgré une augmentation de la population. Ensuite il faut compenser 10% grâce à des énergies renouvelables et enfin séquestrer les 20% restants.
 ---

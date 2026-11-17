@@ -3,6 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
+    {% if page.noindex %}<meta name="robots" content="noindex, follow">{% endif %}
     {% assign page_desc = page.description | default: site.description %}
     <meta name="description" content="{{ page_desc | escape }}">
     <!-- Favicon -->
@@ -60,10 +61,10 @@
       "about": "Neutralité carbone de Paris en 2050",
       "image": {{ '/img/og-image.jpg' | prepend: site.baseurl | prepend: site.url | jsonify }},
       "author": [
-        {"@type": "Organization", "name": "Elioth", "url": "http://elioth.com"},
-        {"@type": "Organization", "name": "Egis Conseil", "url": "http://leconseilbyegis.fr"},
-        {"@type": "Organization", "name": "Quattrolibri", "url": "http://www.quattrolibri.com"},
-        {"@type": "Organization", "name": "Mana", "url": "http://www.manafactory.fr"}
+        {"@type": "Organization", "name": "Elioth", "url": "https://elioth.com"},
+        {"@type": "Organization", "name": "Egis Conseil", "url": "https://leconseilbyegis.fr"},
+        {"@type": "Organization", "name": "Quattrolibri", "url": "https://www.quattrolibri.com"},
+        {"@type": "Organization", "name": "Mana", "url": "https://www.manafactory.fr"}
       ],
       "sponsor": {"@type": "Organization", "name": "Ville de Paris"},
       "isAccessibleForFree": true

@@ -2,10 +2,14 @@
 title: La trajectoire
 subtitle: Bilan de Paris de 2004 jusqu'en 2050
 layout: default
+noindex: true
+title_en: "The trajectory"
+subtitle_en: "Paris's carbon footprint from 2004 to 2050"
+description_en: "Detailed trajectory of Paris's carbon footprint from 2004 to 2050, showing how carbon neutrality can be reached."
 modal-id: 2
 date: 2014-07-17
-img: courbe_complete.png
-thumbnail: courbe_complete-thumbnail.png
+img: courbe_complete.webp
+thumbnail: courbe_complete-thumbnail.webp
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

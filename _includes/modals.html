@@ -1,5 +1,7 @@
  <!-- Portfolio Modals -->
+ {% assign en = false %}{% if page.lang == 'en' %}{% assign en = true %}{% endif %}
  {% for post in site.posts %}
+    {% if en %}{% assign p_title = post.title_en %}{% assign p_sub = post.subtitle_en %}{% assign p_desc = post.description_en %}{% else %}{% assign p_title = post.title %}{% assign p_sub = post.subtitle %}{% assign p_desc = post.description %}{% endif %}
     <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -10,12 +12,12 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-8 col-lg-offset-2">
+                    <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
+                            <h2>{{ p_title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.title | escape }} : {{ post.subtitle | escape }}">
-                            <p>{{ post.description }}</p>
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ p_title | escape }} : {{ p_sub | escape }}">
+                            <p>{{ p_desc }}</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> {% if page.lang == 'en' %}Close{% else %}Fermer{% endif %}</button>
                         </div>
                     </div>

@@ -1,11 +1,15 @@
 ---
 title: Illustrations
-subtitle: Les quatres autres illustration de Diane Berg
+subtitle: Les quatre autres illustrations de Diane Berg
 layout: default
+noindex: true
+title_en: "Illustrations"
+subtitle_en: "The four other illustrations by Diane Berg"
+description_en: "What might Paris look like in 2050? Diane Berg had fun imagining scenes of everyday life in Paris in 2050."
 modal-id: 4
 date: 2014-07-15
-img: DianeBerg.jpg
-thumbnail: DianeBerg-thumbnail.jpg
+img: DianeBerg.webp
+thumbnail: DianeBerg-thumbnail.webp
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

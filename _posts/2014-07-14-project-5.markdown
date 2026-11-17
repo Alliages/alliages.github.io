@@ -2,13 +2,17 @@
 title: Exemple de familles
 subtitle: Deux familles résumées
 layout: default
+noindex: true
+title_en: "Example of families"
+subtitle_en: "Two families in brief"
+description_en: "A summary of two families belonging to the same quadrant: the emitting families, by default."
 modal-id: 5
 date: 2014-07-14
-img: familles.png
-thumbnail: familles-thumbnail.png
+img: familles.webp
+thumbnail: familles-thumbnail.webp
 alt: Exemple de familles
 project-date: 2016
 client: Elioth
 category: Elioth
-description: Un résumé de deux familles appartenant au même cadrant, les familles émettrices, par default. 
+description: Un résumé de deux familles appartenant au même quadrant, les familles émettrices, par défaut. 
 ---
